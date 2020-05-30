@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Card</title>
+</head>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lato:wght@300&display=swap" rel="stylesheet">
+
+<!-- CSS Styles -->
+<style>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: rgb(226, 222, 222);
+    margin: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+
+  .card-face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+
+
+  .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: khaki;
+}
+
+.card-backside {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+  .shawn {
+    margin-left: 80px;
+    padding-top: 15px;
+
+  }
+
+  p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: 'Chelsea Market', cursive;
+    margin-left: 50px;
+  }
+
+
+</style>
+<body>
+
+    <h2> Shawn O'Brien Rookie Coding Card</h2>
+  <div class='card'>
+    <img class='shawn' src='images/shawn-picture.png'>
+    <div class='container'>
+      <h4>Shawn O'Brien</h4>
+      <p>Software Developer & Startup Founder</p>
+
+      
+
+    </div>
+  </div>
+  
+</body>
+</html>
