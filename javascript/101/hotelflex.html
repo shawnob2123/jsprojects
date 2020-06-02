@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Rooms</title>
+
+  <style>
+
+    .cards {
+      display: flex;
+      margin: 0px 1px 0px 1px;
+      height: 320px;
+      justify-content: space-between;
+      align-content: center;
+      background-color: khaki;
+
+    }
+
+    .card {
+      margin: 10px 5px;
+
+    }
+
+    .flexbox {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      height: 50px;
+      align-items: stretch;
+      margin-bottom: 1px;
+    }
+
+      #header {
+        text-align: center;
+      
+      }
+
+    .intro {
+      text-align: right;
+    }
+
+  </style>
+
+</head>
+<body>
+
+ <div id='header'>
+   <h1 id='hotelName'>We Got Candy Hotel</h1>
+   <h5 id='hotelSlogan'>sike</h5>
+
+   <p id='intro'>Please Select Your Room Number</p>
+   <div id='dropDown'></div>
+
+ </div>
+
+<div class='flexbox'>
+
+ <section class='cards'>
+
+  <article class='card'>
+     <img src='https://i.picsum.photos/id/1029/300/300.jpg'>
+     <p>Double Room</p>
+  </article>
+
+  <article class='card'>
+    <img src='https://i.picsum.photos/id/1040/300/300.jpg'>
+    <p>Queen Rooms</p>
+  </article>
+
+  <article class='card'>
+    <img src='https://i.picsum.photos/id/142/300/300.jpg'>
+    <p>King Rooms</p>
+  </article>
+
+</section>
+
+</div>
+
+<script src='hotelflex.js'></script>
+  
+</body>
+</html>
